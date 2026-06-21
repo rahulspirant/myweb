@@ -1,0 +1,5 @@
+/* Animation helpers */
+.reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity: 1; transform: translateY(0); }
+.particle-canvas { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
+@keyframes floatY { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
